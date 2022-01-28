@@ -4,6 +4,9 @@ For this repo, I will take a full-stack app built for a retailer and deploy it t
 
 This project is integrated with CircleCI for automating pipeline. It will also include documentation covering the operations of the deployment process. The documents will serve as a guideline to communicate with future developers and anybody involved in this app.
 
+#### Link to app:
+http://udagram-bucket-1.s3-website-us-east-1.amazonaws.com/home
+
 #### Run / build / deploy the app locally
 
 Create `.env` file inside `udagram-api` with following variables:

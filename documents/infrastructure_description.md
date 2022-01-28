@@ -8,4 +8,4 @@ This app includes 2 parts: Frontend (`udagram-frontend`), Backend (`udagram-back
 There is also a PostgreSQL database run on AWS Elastic Beanstalk.
 
 #### Diagram
-![infra-diagram](images/udagram-infra-diagram.png)
+![infra-diagram](photos/udagram-infra-diagram.png)

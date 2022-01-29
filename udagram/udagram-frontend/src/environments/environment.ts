@@ -6,7 +6,7 @@ export const environment = {
   production: true,
   appName: "Udagram",
   apiHost:
-    "http://Udagramserver1-env.eba-htnsecun.us-east-1.elasticbeanstalk.com/api/v0",
+    "http://Udagramserver3-env.eba-eagnecgh.us-east-1.elasticbeanstalk.com/api/v0",
 };
 
 /*

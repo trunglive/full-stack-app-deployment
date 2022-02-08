@@ -1,14 +1,14 @@
 branch-defaults:
   master:
-    environment: Udagramserver3-env
+    environment: Udagramserver4-env
 environment-defaults:
   Udagramserver3-env:
     branch: null
     repository: null
 global:
-  application_name: udagram-server-3
+  application_name: udagram-server-4
   default_ec2_keyname: null
-  default_platform: Node.js 12 running on 64bit Amazon Linux 2
+  default_platform: Node.js 14 running on 64bit Amazon Linux 2
   default_region: us-east-1
   include_git_submodules: true
   instance_profile: null

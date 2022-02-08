@@ -1,7 +1,7 @@
 set -x
 set -e
 
-eb use Udagramserver3-env
+eb use Udagramserver4-env
 
 eb setenv POSTGRES_HOST=$POSTGRES_HOST
           POSTGRES_DB=$POSTGRES_DB
@@ -14,4 +14,4 @@ eb setenv POSTGRES_HOST=$POSTGRES_HOST
           AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
           AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
 
-eb deploy Udagramserver3-env
+eb deploy Udagramserver4-env

@@ -2,7 +2,7 @@ branch-defaults:
   master:
     environment: Udagramserver4-env
 environment-defaults:
-  Udagramserver3-env:
+  Udagramserver4-env:
     branch: null
     repository: null
 global:

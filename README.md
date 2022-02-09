@@ -4,10 +4,15 @@ For this repo, I will take a full-stack app built for a retailer and deploy it t
 
 This project is integrated with CircleCI for automating pipeline. It will also include documentation covering the operations of the deployment process. The documents will serve as a guideline to communicate with future developers and anybody involved in this app.
 
-#### Link to app:
-http://udagram-bucket-3.s3-website-us-east-1.amazonaws.com/home
+#### Link to app
+http://udagram-bucket-4.s3-website-us-east-1.amazonaws.com/home
 
-#### Run / build / deploy the app locally
+#### Check CircleCI build status
+[![CircleCI](https://circleci.com/gh/trunglive/full-stack-app-deployment/tree/master.svg?style=svg)](https://circleci.com/gh/trunglive/full-stack-app-deployment/tree/master)
+
+https://app.circleci.com/pipelines/github/trunglive/full-stack-app-deployment?branch=master
+
+#### Run / build / deploy the app
 
 Create `.env` file inside `udagram-api` with following variables:
 + POSTGRES_HOST

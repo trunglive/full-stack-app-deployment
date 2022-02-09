@@ -2,17 +2,16 @@
   "name": "udagram-api",
   "version": "2.0.0",
   "description": "",
-  "main": "src/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node www/server.js",
     "tsc": "tsc",
-    "dev": "ts-node-dev --respawn --transpileOnly ./src/server.ts",
+    "dev": "ts-node-dev --respawn --transpile-only ./src/server.ts",
     "prod": "tsc && node ./www/server.js",
     "clean": "rm -rf www/ || true",
-    "build": "npm run clean && tsc && cp -rf src/config www/config && cp -R .elasticbeanstalk www/.elasticbeanstalk && cp .npmrc www/.npmrc && cp package.json www/package.json",
-    "zip": "npm run build && cd www && zip -r -D ../app.zip *",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "npm install && npm run build && chmod +x bin/deploy.sh && bin/deploy.sh"
+    "build": "npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip . && cd ..",
+    "test": "jasmine",
+    "deploy": "sh ./bin/deploy.sh"
   },
   "keywords": [],
   "author": "Gabriel Ruttner",

@@ -10,7 +10,7 @@ This project is integrated with CircleCI for automating pipeline. It will also i
 https://app.circleci.com/pipelines/github/trunglive/full-stack-app-deployment?branch=master
 
 #### Link to app
-http://udagram-bucket-4.s3-website-us-east-1.amazonaws.com/home
+http://udagram-bucket-4.s3-website-us-east-1.amazonaws.com
 
 #### Link to server
 http://udagramserver4-env.eba-4pgcssbj.us-east-1.elasticbeanstalk.com

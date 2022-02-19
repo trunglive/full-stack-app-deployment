@@ -7,7 +7,7 @@ This project is integrated with CircleCI for automating pipeline. It will also i
 #### Check CircleCI build status on `main` branch
 [![CircleCI](https://circleci.com/gh/trunglive/full-stack-app-deployment/tree/main.svg?style=svg)](https://circleci.com/gh/trunglive/full-stack-app-deployment/tree/main)
 
-https://app.circleci.com/pipelines/github/trunglive/full-stack-app-deployment?branch=master
+https://app.circleci.com/pipelines/github/trunglive/full-stack-app-deployment?branch=main
 
 #### Link to app
 http://udagram-bucket-1.s3-website-us-east-1.amazonaws.com
